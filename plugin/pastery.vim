@@ -8,6 +8,6 @@ if mapcheck('"$P', 'n') == ''
   nmap "$P <Plug>(pastery_default_end)
 endif
 
-if mapcheck('"VP', 'n')
+if mapcheck('"VP', 'n') == ''
   nmap "VP <Plug>(pastery_default_col)
 endif
